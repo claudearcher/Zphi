@@ -1224,3 +1224,10 @@ ZPhiClasses_C2Cube_S4_NonFaithful_Table := ZPhiClasses_C2Cube_S4_NonFaithful_Tab
 HP75_Table_2_15 := function()
     return ZPhiClasses_C2Cube_S4_NonFaithful_Table(2,15);
 end;
+
+###
+
+## Use case : PhiClasses_C2Cube_S4_NonFaithful_Table(2,15);
+# counts extensions by groups of order n=2 to n=15 (Z(P)=2^3, Out(P)=Sym(4), 
+#kernel of action is V4 <Sym(4)
+# for a given n : ZPhiClasses_C2Cube_S4_NonFaithful_OneN(n);;
